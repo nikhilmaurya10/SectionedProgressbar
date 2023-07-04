@@ -15,7 +15,7 @@ class SectionedProgressBar @JvmOverloads constructor(
 ) : View(context, attrs, defStyleAttr) {
 
     private val baseLinePaint = Paint().apply {
-        color = Color.YELLOW
+        color = Color.BLACK
         strokeWidth = 10f
     }
 
